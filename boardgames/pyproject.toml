@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "boardgames"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+hy = "^0.27.0"
+numpy = "^1.26.2"
+hyrule = "^0.4.0"
+rich = "*"
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+pre-commit = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
